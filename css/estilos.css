@@ -1,0 +1,70 @@
+
+
+  body {
+    margin: 0
+  }
+  
+  canvas {
+    background-color: #cf1f34;
+  }
+  
+  button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -40px 0 0 -40px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .ion-play {
+    margin-right: -4px;
+  }
+  
+  .icon {
+    color: #fff;
+    font-size: 30px;
+    line-height: 75px;
+  }
+  /*MENU*/
+
+  /*COROUSEL*/
+
+  /*CONTADOR*/
+  #countdown {
+    background-color: #cf1f34;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+  }
+  #listacontador li{
+    display: inline;    
+  }
+
+  
+
+  /*INVITADO MESA*/
+
+  /*DONDE Y CUANDO*/
+
+  /*VESTIMENTA*/
+
+  /*FOTOS*/
+
+  /*PERSONAJES*/
+
+  /*LISTAS DE REGALO*/
+
+  /*INSTAGRAM*/
+
+  /*VIDEO*/
+
+  /*RSVP*/
+
+  /*MAPA*/
+
+  /*FOOTER*/
