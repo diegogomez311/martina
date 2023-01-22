@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+  p{
+    text-align: center;
+  }
+.landing{
+    background-color: #e866ab;
+    padding-bottom: 50px;
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .countdown{
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        div{
+            padding: 20px;
+            border: 1px #fff solid;
+            border-radius: 10px;
+            background: rgb(0, 0, 0);
+            opacity: 0.7;
+            margin: 5px;
+        }
+        div:first-child {
+            background: #17a2b8;
+        }
+        span {
+            display: block;
+            font-size: 25px;
+        }
+    }
+}
+#donde{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}

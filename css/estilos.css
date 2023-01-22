@@ -1,70 +1,37 @@
+* {
+  box-sizing: border-box; }
 
+p {
+  text-align: center; }
 
-  body {
-    margin: 0
-  }
-  
-  canvas {
-    background-color: #cf1f34;
-  }
-  
-  button {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: 2px solid #fff;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -40px 0 0 -40px;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  .ion-play {
-    margin-right: -4px;
-  }
-  
-  .icon {
-    color: #fff;
-    font-size: 30px;
-    line-height: 75px;
-  }
-  /*MENU*/
+.landing {
+  background-color: #e866ab;
+  padding-bottom: 50px; }
+  .landing p {
+    text-align: center; }
+  .landing h1 {
+    text-align: center; }
+  .landing .countdown {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .landing .countdown div {
+      padding: 20px;
+      border: 1px #fff solid;
+      border-radius: 10px;
+      background: black;
+      opacity: 0.7;
+      margin: 5px; }
+    .landing .countdown div:first-child {
+      background: #17a2b8; }
+    .landing .countdown span {
+      display: block;
+      font-size: 25px; }
 
-  /*COROUSEL*/
-
-  /*CONTADOR*/
-  #countdown {
-    background-color: #cf1f34;
-    padding-top: 20px;
-    padding-bottom: 20px;    
-  }
-  #listacontador li{
-    display: inline;    
-  }
-
-  
-
-  /*INVITADO MESA*/
-
-  /*DONDE Y CUANDO*/
-
-  /*VESTIMENTA*/
-
-  /*FOTOS*/
-
-  /*PERSONAJES*/
-
-  /*LISTAS DE REGALO*/
-
-  /*INSTAGRAM*/
-
-  /*VIDEO*/
-
-  /*RSVP*/
-
-  /*MAPA*/
-
-  /*FOOTER*/
+#donde {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
