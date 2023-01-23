@@ -1,12 +1,38 @@
 * {
     box-sizing: border-box;
-  }
+}
 
-  p{
+p{
     text-align: center;
-  }
+}
+h2{
+    text-align: center;
+}
+
+/*inicio*/
+#inicio{
+    img{
+        width: 100%;
+    }
+}
+
+/*carousel*/
+
+/*salon*/
+#frase{
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h2{
+        text-align: center;
+        color: white;
+    }
+}
+
+/*contador*/
 .landing{
     background-color: #e866ab;
+    padding-top: 60px;
     padding-bottom: 50px;
     p{
         text-align: center;
@@ -37,10 +63,68 @@
         }
     }
 }
-#donde{
-    background-color: black;
-    padding-top: 50px;
+
+
+/*contador*/
+.landing2{    
+    padding-top: 60px;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .countdown{
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        div{
+            padding: 20px;
+            border: 1px #fff solid;
+            border-radius: 10px;
+            background: rgb(0, 0, 0);
+            opacity: 1;
+            margin: 5px;
+        }
+        div:first-child {
+            background: #17a2b8;
+        }
+        span {
+            display: block;
+            font-size: 25px;
+        }
+    }
+}
+
+/*asistencia*/
+#rsvp{
+    background-color: #17a2b8;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    img{
+        display: block;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*salon*/
+
+#salon{
+    background-color: rgb(31, 31, 31);
+    padding-top: 60px;
     padding-bottom: 50px;
     text-align: center;
+    color: #ffffff;
 
 }
+
+/*mapa*/
