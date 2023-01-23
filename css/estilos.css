@@ -51,11 +51,9 @@ h2 {
 
 /*contador*/
 .landing2 {
+  background-color: #e866ab;
   padding-top: 60px;
-  padding-bottom: 50px;
-  position: absolute;
-  left: 35%;
-  top: 50%; }
+  padding-bottom: 50px; }
   .landing2 p {
     text-align: center; }
   .landing2 h1 {

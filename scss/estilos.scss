@@ -66,12 +66,10 @@ h2{
 
 
 /*contador*/
-.landing2{    
+.landing2{   
+    background-color: #e866ab;
     padding-top: 60px;
     padding-bottom: 50px;
-    position: absolute;
-    left: 35%;
-    top: 50%;
     
     p{
         text-align: center;
@@ -90,7 +88,7 @@ h2{
             border: 1px #fff solid;
             border-radius: 10px;
             background: rgb(0, 0, 0);
-            
+
             opacity: 1;
             margin: 5px;
         }
