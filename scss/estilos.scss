@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+*{ 
+    margin: 0;
+    padding: 0;    
+  }
+
 
 p{
     text-align: center;
@@ -32,7 +37,7 @@ h2{
 /*contador*/
 #contador{
     background-color: #e866ab;
-    .landing{
+    .landing{        
         background-color: #e866ab;
         padding-top: 60px;
         padding-bottom: 50px;
@@ -42,13 +47,13 @@ h2{
         h1{
             text-align: center;
         }
-        .countdown{
+        .countdown{            
             font-size: 70px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
-            div{
+            div{                
                 padding: 20px;
                 border: 1px #fff solid;
                 border-radius: 10px;
@@ -60,8 +65,8 @@ h2{
                 background: #17a2b8;
             }
             span {
-                display: block;
-                font-size: 25px;
+                display:block;
+                font-size: 20px;
             }
         }
     }
