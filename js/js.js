@@ -13,19 +13,19 @@ var launchDate = new Date('Jul 29, 2023 21:00:00').getTime();
   var distance = launchDate - now;
 
   // Time calculation
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor(
+  var Dias = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var Horas = Math.floor(
     (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   );
-  var mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seg = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display result
   countdown.innerHTML = `
-  <div>${days}<span>Days</span></div> 
-  <div>${hours}<span>Hours</span></div>
-  <div>${mins}<span>Minutes</span></div>
-  <div>${seconds}<span>Seconds</span></div>
+  <div>${Dias}<span>Dias</span></div> 
+  <div>${Horas}<span>Horas</span></div>
+  <div>${min}<span>Min</span></div>
+  <div>${seg}<span>Seg</span></div>
   `;
 
   // If launch date is reached

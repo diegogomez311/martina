@@ -37,13 +37,13 @@ h2 {
     #contador .landing h1 {
       text-align: center; }
     #contador .landing .countdown {
-      font-size: 70px;
+      font-size: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center; }
       #contador .landing .countdown div {
-        padding: 20px;
+        padding: 10px;
         border: 1px #fff solid;
         border-radius: 10px;
         background: black;
@@ -53,7 +53,7 @@ h2 {
         background: #17a2b8; }
       #contador .landing .countdown span {
         display: block;
-        font-size: 20px; }
+        font-size: 10px; }
 
 /*asistencia*/
 #rsvp {
