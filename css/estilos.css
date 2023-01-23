@@ -22,60 +22,34 @@ h2 {
     color: white; }
 
 /*contador*/
-.landing {
-  background-color: #e866ab;
-  padding-top: 60px;
-  padding-bottom: 50px; }
-  .landing p {
-    text-align: center; }
-  .landing h1 {
-    text-align: center; }
-  .landing .countdown {
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; }
-    .landing .countdown div {
-      padding: 20px;
-      border: 1px #fff solid;
-      border-radius: 10px;
-      background: black;
-      opacity: 0.7;
-      margin: 5px; }
-    .landing .countdown div:first-child {
-      background: #17a2b8; }
-    .landing .countdown span {
-      display: block;
-      font-size: 25px; }
-
-/*contador*/
-.landing2 {
-  background-color: #e866ab;
-  padding-top: 60px;
-  padding-bottom: 50px; }
-  .landing2 p {
-    text-align: center; }
-  .landing2 h1 {
-    text-align: center; }
-  .landing2 .countdown {
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; }
-    .landing2 .countdown div {
-      padding: 20px;
-      border: 1px #fff solid;
-      border-radius: 10px;
-      background: black;
-      opacity: 1;
-      margin: 5px; }
-    .landing2 .countdown div:first-child {
-      background: #17a2b8; }
-    .landing2 .countdown span {
-      display: block;
-      font-size: 25px; }
+#contador {
+  background-color: #e866ab; }
+  #contador .landing {
+    background-color: #e866ab;
+    padding-top: 60px;
+    padding-bottom: 50px; }
+    #contador .landing p {
+      text-align: center; }
+    #contador .landing h1 {
+      text-align: center; }
+    #contador .landing .countdown {
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      #contador .landing .countdown div {
+        padding: 20px;
+        border: 1px #fff solid;
+        border-radius: 10px;
+        background: black;
+        opacity: 0.7;
+        margin: 5px; }
+      #contador .landing .countdown div:first-child {
+        background: #17a2b8; }
+      #contador .landing .countdown span {
+        display: block;
+        font-size: 25px; }
 
 /*asistencia*/
 #rsvp {

@@ -30,74 +30,39 @@ h2{
 }
 
 /*contador*/
-.landing{
+#contador{
     background-color: #e866ab;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    p{
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    .countdown{
-        font-size: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        div{
-            padding: 20px;
-            border: 1px #fff solid;
-            border-radius: 10px;
-            background: rgb(0, 0, 0);
-            opacity: 0.7;
-            margin: 5px;
+    .landing{
+        background-color: #e866ab;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        p{
+            text-align: center;
         }
-        div:first-child {
-            background: #17a2b8;
+        h1{
+            text-align: center;
         }
-        span {
-            display: block;
-            font-size: 25px;
-        }
-    }
-}
-
-
-/*contador*/
-.landing2{   
-    background-color: #e866ab;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    
-    p{
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    .countdown{
-        font-size: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        div{
-            padding: 20px;
-            border: 1px #fff solid;
-            border-radius: 10px;
-            background: rgb(0, 0, 0);
-
-            opacity: 1;
-            margin: 5px;
-        }
-        div:first-child {
-            background: #17a2b8;
-        }
-        span {
-            display: block;
-            font-size: 25px;
+        .countdown{
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            div{
+                padding: 20px;
+                border: 1px #fff solid;
+                border-radius: 10px;
+                background: rgb(0, 0, 0);
+                opacity: 0.7;
+                margin: 5px;
+            }
+            div:first-child {
+                background: #17a2b8;
+            }
+            span {
+                display: block;
+                font-size: 25px;
+            }
         }
     }
 }
